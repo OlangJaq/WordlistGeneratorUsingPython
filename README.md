@@ -11,4 +11,5 @@ After Python, I tried my first PIN List (containing 0000-9999) and since the tec
 Running the wordlist.py will generate a wordlist which will be huge in size as it contains all the possible combinations of the characters present in the string, thus it is recommended to have enough space before running the program.
 
 
-The initial string of characters contain a-z,A-Z,0-9 and !@#$%^&(). So the file size of the wordlist generated from this is
+The initial string of characters contain a-z, A-Z, 0-9 and "!,@,#,$,%,^,&,\*,(,),".
+So the file size of the wordlist generated from this is 123GB but you will find every word of 8 characters possible from the characters used above.
